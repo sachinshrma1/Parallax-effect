@@ -45,33 +45,32 @@
     color: white;
     text-shadow: 3px 3px 3px black;
 }
-.text{
-    font-size: 1.5rem;
+
+.text {
+    font-size: 2rem;
     background-color: black;
     color: white;
+    height: 300px;
+    text-align: center;
 }
 
 
 .para {
-    font-size: 1.5rem;
+    padding: 50px;
+    font-size: 2rem;
     background-color: black;
     color: white;
-}
-.heading{
-    font-size: 3rem;
-    position: absolute;
-    left: 550px;
-    top: 100px;
-    background-color: white;
-    border: 1px white solid;
+    min-height: 300px;
+    text-align: center;
 }
 
 .heading1 {
     background-color: black;
     color: white;
-    font-size: 2rem;
-} 
-.bg{
+    font-size: 3rem;
+}
+
+.bg {
     position: relative;
     width: 100%;
     background-attachment: fixed;
@@ -79,15 +78,24 @@
     background-size: cover;
 }
 
-.bg1{
+.bg1 {
     background-image: url(sport-1.jpg);
-    }
-.bg2{
+}
+
+.bg2 {
     background-image: url(sport-2.jpg);
-    }
+}
 
-.bg3{
+.bg3 {
     background-image: url(sport-3.jpg);
-    }
+}
 
+.heading{
+    font-size: 4rem;
+    position: absolute;
+    left: 500px;
+    top: 180px; 
+    background-color: white;
+    color: black;
 
+}
